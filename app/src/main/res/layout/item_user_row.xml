@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:id="@+id/itemrow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dark_border"
+     android:layout_marginHorizontal="@dimen/_10sdp"
+     android:layout_marginVertical="@dimen/_10sdp"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/imageIV"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:src="@drawable/user"
+        android:layout_margin="@dimen/_10sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+         android:layout_marginHorizontal="@dimen/_5sdp"
+        android:layout_gravity="center"
+        >
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textStyle="bold"
+        android:fontFamily="serif"
+        android:textSize="@dimen/_15sdp"
+        android:textColor="@color/black"/>
+        <TextView
+            android:id="@+id/statusTV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="status"
+             android:layout_marginTop="@dimen/_10sdp"
+            android:fontFamily="serif"
+            android:textSize="@dimen/_15sdp"
+            android:textColor="@color/black"/>
+
+
+    </LinearLayout>
+
+
+
+
+
+</LinearLayout>
+</RelativeLayout>
